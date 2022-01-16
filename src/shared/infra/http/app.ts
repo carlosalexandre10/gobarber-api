@@ -46,7 +46,7 @@ app.use(
 );
 
 // ROUTES
-app.use('/files', express.static(uploadConfig.director));
+app.use('/files', express.static(uploadConfig.uploadsFolder));
 app.use(routes);
 
 // ERRORS
